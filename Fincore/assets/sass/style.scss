@@ -1,0 +1,147 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name: 	Fincore
+Version:        1.0.0
+Author:         themexriver
+URL:            http://themeforest.net/user/themexriver
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#0.1	Theme Reset Style
+#0.2	Global Elements
+#0.3	header
+#0.4	hero-slider
+#0.5	footer
+#0.6	services-section
+#0.7	contact-section
+#0.8	about-section
+#0.9	projects-testimonials-section
+#1.0	why-choose-us-section
+#1.1	latest-blog-section
+
+
+----------------------------------------------------------------
+	#home style 2
+----------------------------------------------------------------
+#2.1	services-section-s2
+#2.2	projects-section
+#2.3	team-section
+#2.4	about-faq-section
+#2.5	testimonials-partners-section
+#2.6	latest-blog-section-s2
+
+
+----------------------------------------------------------------
+	#home style 3
+----------------------------------------------------------------
+#3.1	services-section-s3
+#3.2	why-choose-us-section-s2
+#3.3	case-studies-section
+
+
+----------------------------------------------------------------
+	#testimonials page
+----------------------------------------------------------------
+#4.1	testimonial-pg-testimonials-section
+#4.2	partners-section-s2
+
+
+----------------------------------------------------------------
+	#services page
+----------------------------------------------------------------
+#5.1	service-pg-services-section
+
+
+----------------------------------------------------------------
+	#service single page
+----------------------------------------------------------------
+#6.1	service-single-content
+
+
+----------------------------------------------------------------
+	#case studies page
+----------------------------------------------------------------
+#7.1	case-pg-case-studies-section
+
+
+----------------------------------------------------------------
+	#case studies single page
+----------------------------------------------------------------
+#8.1	case-study-single-content
+
+
+----------------------------------------------------------------
+	#blog grid page
+----------------------------------------------------------------
+#9.1	blog-grid-latest-blog-section
+
+
+----------------------------------------------------------------
+	#blog classic page
+----------------------------------------------------------------
+#10.1	blog-calassic-main-content
+
+
+----------------------------------------------------------------
+	#blog details
+----------------------------------------------------------------
+#11.0 blog-single-section
+
+
+----------------------------------------------------------------
+	#contact page
+----------------------------------------------------------------
+#12.1 contact-map-section
+#12.2 contact-pg-contact-section
+
+
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/progress-bar";
+@import "components/accordion";
+@import "components/service-sidebar";
+@import "components/pagination";
+@import "components/blog-sidebar";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+// page
+@import "page/home-default";
+@import "page/home-style2";
+@import "page/home-style3";
+@import "page/testimonials";
+@import "page/services";
+@import "page/service-single";
+@import "page/case-studies";
+@import "page/case-studies-single";
+@import "page/blog-grids";
+@import "page/blog-classic";
+@import "page/blog-details";
+@import "page/contact";
+
+

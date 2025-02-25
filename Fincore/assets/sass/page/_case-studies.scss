@@ -1,0 +1,95 @@
+/*--------------------------------------------------------------
+	#case studies page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#7.1	case-pg-case-studies-section
+--------------------------------------------------------------*/
+.case-pg-case-studies-section {
+	padding-bottom: 105px;
+
+	@include media-query(991px) {
+		padding-bottom: 85px;
+	}
+
+	@include media-query(767px) {
+		padding-bottom: 75px;
+	}
+
+	.case-studies-grids {
+		overflow: hidden;
+		margin: 0 -15px;
+	}
+
+	.case-studies-grids .grid {
+		width: calc(50% - 30px);
+		float: left;
+		margin: 0 15px 70px;
+		border-bottom: 1px solid #e6e8eb;
+
+		@include media-query(767px) {
+			margin: 0 15px 60px;
+		}
+
+		@include media-query(550px) {
+			width: 100%;
+			float: none;
+		}
+	}
+
+	.grid .img-holder {
+		margin-bottom: 25px;
+	}
+
+	.grid .cat {
+		font-size: 14px;
+		font-size: calc-rem-value(14);
+		font-weight: 600;
+		color: #949494;
+		display: block;
+		text-transform: uppercase;
+
+		@include media-query(767px) {
+			font-size: 13px;
+			font-size: calc-rem-value(13);
+		}
+	}
+
+	.grid h3 {
+		font-size: 27px;
+		font-size: calc-rem-value(27);
+		font-weight: 500;
+		line-height: 1.3em;
+		margin: 0.3em 0 0.5em;
+
+		@include media-query(1199px) {
+			font-size: 24px;
+			font-size: calc-rem-value(24);
+		}
+
+		@include media-query(991px) {
+			font-size: 20px;
+			font-size: calc-rem-value(20);
+		}
+
+		@include media-query(767px) {
+			font-size: 17px;
+			font-size: calc-rem-value(17);
+		}
+
+		a {
+			color: $heading-color;
+		}
+
+		a:hover {
+			color: $theme-secondary-color;
+		}
+	}
+
+	.grid p {
+		margin-bottom: 2.3em;
+	}
+
+	.pagination-wrapper {
+		margin-top: 0;
+	}
+}

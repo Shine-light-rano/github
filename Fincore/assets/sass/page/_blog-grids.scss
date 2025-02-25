@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+	#blog grid page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#9.1	blog-grid-latest-blog-section
+--------------------------------------------------------------*/
+.blog-grid-latest-blog-section {
+	@extend .latest-blog-section;
+
+	padding-bottom: 105px;
+
+	@include media-query(991px) {
+		padding-bottom: 85px;
+	}
+
+	@include media-query(767px) {
+		padding-bottom: 75px;
+	}
+
+	.pagination-wrapper {
+		margin-top: 0;
+	}
+}

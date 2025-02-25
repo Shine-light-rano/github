@@ -1,0 +1,119 @@
+/******************************
+	page title
+******************************/
+.page-title {
+	@include background-style("../images/page-title.jpg", center center, cover, no-repeat, local);
+	height: 350px;
+	position: relative;
+	width: 100%;
+
+	@include widther(992px) {
+		margin-top: 164px;
+	}
+
+	@include media-query(991px) {
+		height: 280px;
+	}
+
+	@include media-query(767px) {
+		height: 220px;
+	}
+
+	.container {
+		height: 100%;
+		display: table;
+
+		> .row {
+			vertical-align: middle;
+			display: table-cell;
+		}
+	}
+
+	h2,
+	ol {
+		color: $white;
+	}
+
+	.title-breadcrumb {
+		overflow: hidden;
+		margin: 0 -30px;
+		padding: 75px 15px 0;
+
+		@include media-query(991px) {
+			text-align: center;
+			padding-top: 0;
+		}
+	}
+
+	h2 {
+		font-size: 48px;
+		font-size: calc-rem-value(48);
+		line-height: 1.3em;
+		margin: -0.2em 0 0;
+
+		@include widther(992px) {
+			display: inline-block;
+			float: left;
+		}
+
+		@include media-query(1199px) {
+			font-size: 40px;
+			font-size: calc-rem-value(40);
+		}
+
+		@include media-query(991px) {
+			font-size: 35px;
+			font-size: calc-rem-value(35);
+			margin: 0 0 0.3em;
+		}
+
+		@include media-query(767px) {
+			font-size: 28px;
+			font-size: calc-rem-value(28);
+		}
+	}
+
+	.breadcrumb {
+		font-family: $heading-font;
+		background-color: transparent;
+		padding: 0;
+		margin: 0;
+
+		@include widther(992px) {
+			display: inline-block;
+			float: right;
+			margin-top: 10px;
+		}
+
+		@include media-query(767px) {
+			text-align: center;
+		}
+	}
+
+	.breadcrumb li {
+		font-size: 14px;
+		font-size: calc-rem-value(14);
+		color: $white;
+		margin-right: 5px;
+
+		@include media-query(767px) {
+			font-size: 13px;
+			font-size: calc-rem-value(13);
+		}
+	}
+
+	.breadcrumb li a {
+		color: $white;
+	}
+
+	.breadcrumb li a:hover {
+		color: $theme-secondary-color;
+	}
+
+	.breadcrumb > li + li:before {
+		font-family: "FontAwesome";
+		content: "\f105";
+		color: $white;
+		margin-right: 5px;
+	}
+}

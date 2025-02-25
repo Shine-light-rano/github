@@ -1,0 +1,70 @@
+* {
+  color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 116px;
+}
+
+body {
+  background: #f0f0f0;
+  color: #151515;
+  font-family: "Neue Machina";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+input {
+  background: transparent;
+  display: flex;
+  border: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+input::placeholder {
+  color: inherit;
+}
+
+.wrapper {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1324px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}

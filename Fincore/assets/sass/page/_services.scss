@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+	#services page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#5.1	service-pg-services-section
+--------------------------------------------------------------*/
+.service-pg-services-section {
+	@extend .services-section;
+
+	padding-bottom: 60px;
+
+	@include media-query(991px) {
+		padding-bottom: 40px;
+	}
+
+	@include media-query(767px) {
+		padding-bottom: 30px;
+	}
+}
